@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+			//combine
+			var evens = [2, 4, 6, 8];
+			var odd  = [1, ...evens, 3, 5, 7];
+			var prime = [...odd, 2, 3, 5, 7, 11];
+			
+			console.log(prime);
+
+			//desturturing object 
+			const jamesBond = {
+				firstName: 'james',
+				lastName: 'Bond',
+				country: 'United States',
+				city: 'New york',
+			};
+			const {firstName, lastName, country, city} = jamesBond;
+			console.log(firstName, lastName, country, city);
+
+						//desturturing array
+						const players = ['paul', 'andy', 'darrel', 'jim'];
+						const [player1, player2, player3, player4] = players;
+
+						
+						console.log('player1: ' + player1);
+						console.log('player2: ' + player2);
+						console.log('player3: ' + player3);
+						console.log('player4: ' + player4);
+						
+			
+			
+		
+	</script>
+</body>
+</html>
